@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% высоты видимой области */
+}
+
+.centered-box {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: auto; /* автоматическое выравнивание по центру по горизонтали */
+}
